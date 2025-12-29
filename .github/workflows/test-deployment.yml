@@ -17,6 +17,7 @@ jobs:
           node-version: 18
 
       - name: Install dependencies
+        working-directory: dtap-in-actions-joep-marlon-joris
         run: npm install
 
       - name: Login to Docker Hub
