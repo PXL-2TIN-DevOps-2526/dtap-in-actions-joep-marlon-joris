@@ -30,4 +30,5 @@ jobs:
 
       - name: Test production
         run: |
+          sleep 10
           curl -f http://${{ secrets.PRODUCTIESERVER_IP }}
